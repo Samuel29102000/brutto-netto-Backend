@@ -23,6 +23,6 @@ app.post("/calculate", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
+app.listen(process.env.PORT || 10000, '0.0.0.0', () => {
   console.log('Server läuft');
 });
